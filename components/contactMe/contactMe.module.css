@@ -1,0 +1,55 @@
+.contactMe{
+    color: rgb(55, 177, 171);
+    font-size: 16px;
+    padding-left: 2%;
+    text-decoration: underline;
+    padding-top: 2%;
+    
+    
+   
+}
+
+
+.details{
+    padding-left: 2%;
+    font-size: 16px;
+    color: white;
+    padding-top: 1%;
+    
+}
+
+.logo{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    margin-left: 220%;
+    margin-top: 45%;
+   
+}
+
+.method{
+    color: white;
+    display: flex;
+    cursor: pointer;
+}
+
+.email{
+    padding-left: 60%;
+   
+}
+
+.linkdin{
+    padding-left: 24%;
+   
+    
+}
+
+.linkdin a{
+    text-decoration: none;
+    color: white;
+}
+
+.number{
+    padding-left: 111%;
+   
+}

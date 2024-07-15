@@ -1,0 +1,22 @@
+.about{
+    color: rgb(47, 64, 107);
+    font-size: 16px;
+    padding-left: 2%;
+    text-decoration: underline;
+    text-align: center;
+    
+}
+
+.descrip{
+    padding-left: 2%;
+    font-size: 18px;
+    padding-right: 15%;
+    text-align: center;
+   padding-left: 10%;
+   
+}
+
+.para{
+    align-items: flex-end;
+    justify-items: flex-end;
+}

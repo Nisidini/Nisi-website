@@ -1,0 +1,196 @@
+
+.navbar {
+    position: fixed;
+    /* top: 0;
+    left: 0;
+    right: 0; */
+    background-color: #2f406b;
+    padding: 10px 0;
+    width: 100%;
+    z-index: 1000; /* Ensures the navbar stays on top of other elements */
+    display: flex;
+    justify-content: center;
+}
+
+.navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 20px;
+}
+
+.navbar ul li {
+    display: inline;
+}
+
+.navbar ul li a {
+    color: white;
+    text-decoration: none;
+    padding: 8px 16px;
+    display: block;
+}
+
+.navbar ul li a:hover {
+    background-color: #1e25f3;
+    border-radius: 4px;
+}
+
+.skills {
+    color: rgb(47, 64, 107);
+    font-size: 16px;
+    padding-left: 2%;
+    text-decoration: underline;
+    text-align: center;
+    flex-direction: column;
+    margin-top: 60px; /* Add margin to avoid content overlap */
+}
+
+.mainCard {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 40px;
+    width: 80%;
+    margin: 10%;
+    /* margin-top: 20px; */
+    margin-top: 5%;
+}
+
+.card:hover{
+    background-color: #a7d4f0a8;
+}
+
+.card {
+    height: 120px;
+    box-shadow: 0 4px 8px 0 rgba(30, 37, 243, 0.222);
+    transition: 0.4s;
+    cursor: pointer;
+    padding: 12px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-top: 20%;
+}
+
+.logoImage {
+    width: 60%;
+    margin-bottom: 10px;
+    margin-left: 20%;
+}
+
+.skillName {
+    font-size: 20px;
+    font-weight: 600;
+    text-align: center;
+}
+
+.scrollButton {
+    background-color: #2f406b;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    margin: 10px;
+}
+
+.scrollButton:hover {
+    background-color: #1e25f3;
+}
+
+@media only screen and (min-width: 1390px) and (max-width: 2000px) {
+    .navbar {
+        position: fixed;
+        /* top: 0;
+        left: 0;
+        right: 0; */
+        background-color: #2f406b;
+        padding: 10px 0;
+        width: 100%;
+        z-index: 1000; /* Ensures the navbar stays on top of other elements */
+        display: flex;
+        justify-content: center;
+       
+    }
+    
+    .navbar ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        display: flex;
+        gap: 20px;
+    }
+    
+    .navbar ul li {
+        display: inline;
+    }
+    
+    .navbar ul li a {
+        color: white;
+        text-decoration: none;
+        padding: 8px 16px;
+        display: block;
+    }
+    
+    .navbar ul li a:hover {
+        background-color: #1e25f3;
+        border-radius: 4px;
+    }
+    
+    .skills {
+        color: rgb(47, 64, 107);
+        font-size: 16px;
+        padding-left: 2%;
+        text-decoration: underline;
+        text-align: center;
+        flex-direction: column;
+        margin-top: 60px; /* Add margin to avoid content overlap */
+    }
+    
+    .mainCard {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        gap: 100px;
+        width: 70%;
+        margin: 15%;
+        /* margin-top: 20px; */
+        margin-top: 5%;
+    }
+    
+    .card {
+        height: 210px;
+        box-shadow: 0 4px 8px 0 rgba(30, 37, 243, 0.222);
+        transition: 0.4s;
+        cursor: pointer;
+        padding: 10px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .logoImage {
+        width: 60%;
+        margin-bottom: 10px;
+        margin-left: 20%;
+    }
+    
+    .skillName {
+        font-size: 20px;
+        font-weight: 600;
+        text-align: center;
+    }
+    
+    .scrollButton {
+        background-color: #2f406b;
+        color: white;
+        border: none;
+        padding: 10px 20px;
+        cursor: pointer;
+        margin: 10px;
+    }
+    
+    .scrollButton:hover {
+        background-color: #1e25f3;
+    }
+}
